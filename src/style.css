@@ -54,14 +54,30 @@ body {
     display: flex;
     align-items: center;
     margin-top: 5rem;
+    gap: 2rem;
+}
+
+.carousel-frame {
+    width: 200px;
+    position: relative;
+    overflow: hidden;
 }
 
 .carousel {
     display: flex;
-    gap: 50px;
 }
 
 .carousel-item {
-    width: 150px;
+    width: 200px;
     height: auto;
+}
+
+.carousel-button {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+.carousel-button:hover {
+    scale: 1.2;
 }
