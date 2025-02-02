@@ -89,7 +89,7 @@ body {
 .carousel {
     display: flex;
     position: relative;
-    right: 0;
+    right: 0px;
 }
 
 .carousel-item {
@@ -118,4 +118,5 @@ body {
     width: 1rem;
     height: 1rem;
     border-radius: 50%;
+    background-color: aliceblue;
 }

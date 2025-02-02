@@ -1,3 +1,5 @@
+import { colorDot } from "./src/dot";
+
 export function slideRight() {
     const carousel = document.querySelector(".carousel");
     const regex = /(\d+)px/;
@@ -12,6 +14,7 @@ export function slideRight() {
         carousel.style.right = "0px";
         console.log(`After: ${computedStyle.getPropertyValue("right")}`);
     }
+    colorDot();
 }
 
 export function slideLeft() {
@@ -28,4 +31,5 @@ export function slideLeft() {
         carousel.style.right = "800px";
         console.log(`After: ${computedStyle.getPropertyValue("right")}`);
     }
+    colorDot();
 }
