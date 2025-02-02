@@ -85,6 +85,4 @@ export function handleDotClick(event) {
         carousel.style.right = buttonFivePosition;
     }
     colorDot();
-    console.log(clickedButton)
-    console.log(buttonOne)
 }
