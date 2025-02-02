@@ -16,3 +16,5 @@ dotButtons.forEach((item) => {
     const dotButton = item;
     dotButton.addEventListener("click", handleDotClick);
 })
+
+setInterval(slideRight, 5000);
