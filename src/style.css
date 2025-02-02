@@ -67,21 +67,21 @@ body {
 }
 
 .header {
-    margin-top: 5rem;
+    margin-top: 3rem;
     font-size: 3rem;
 }
 
 .carousel-container {
     display: flex;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
     gap: 2rem;
-    width: 416px;
+    width: 516px;
     flex-wrap: wrap;
 }
 
 .carousel-frame {
-    width: 200px;
+    width: 300px;
     position: relative;
     overflow: hidden;
     border-radius: 16px;
@@ -94,7 +94,7 @@ body {
 }
 
 .carousel-item {
-    width: 200px;
+    width: 300px;
     height: auto;
 }
 

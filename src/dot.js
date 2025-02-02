@@ -22,7 +22,7 @@ export function colorDot() {
         const dotOne = document.getElementById("dot-1");
         dotOne.style.backgroundColor = "black";
     }
-    if (currentPosition === "200px") {
+    if (currentPosition === "300px") {
         allDots.forEach((item) => {
             const dot = item;
             dot.style.backgroundColor = "aliceblue"; // Reset all dot colors first
@@ -30,7 +30,7 @@ export function colorDot() {
         const dotTwo = document.getElementById("dot-2");
         dotTwo.style.backgroundColor = "black";
     }
-    if (currentPosition === "400px") {
+    if (currentPosition === "600px") {
         allDots.forEach((item) => {
             const dot = item;
             dot.style.backgroundColor = "aliceblue"; // Reset all dot colors first
@@ -38,7 +38,7 @@ export function colorDot() {
         const dotThree = document.getElementById("dot-3");
         dotThree.style.backgroundColor = "black";
     }
-    if (currentPosition === "600px") {
+    if (currentPosition === "900px") {
         allDots.forEach((item) => {
             const dot = item;
             dot.style.backgroundColor = "aliceblue"; // Reset all dot colors first
@@ -46,7 +46,7 @@ export function colorDot() {
         const dotFour = document.getElementById("dot-4");
         dotFour.style.backgroundColor = "black";
     }
-    if (currentPosition === "800px") {
+    if (currentPosition === "1200px") {
         allDots.forEach((item) => {
             const dot = item;
             dot.style.backgroundColor = "aliceblue"; // Reset all dot colors first
@@ -62,13 +62,13 @@ export function handleDotClick(event) {
     const buttonOne = document.getElementById("dot-1");
     const buttonOnePosition = "0px";
     const buttonTwo = document.getElementById("dot-2");
-    const buttonTwoPosition = "200px";
+    const buttonTwoPosition = "300px";
     const buttonThree = document.getElementById("dot-3");
-    const buttonThreePosition = "400px";
+    const buttonThreePosition = "600px";
     const buttonFour = document.getElementById("dot-4");
-    const buttonFourPosition = "600px";
+    const buttonFourPosition = "900px";
     const buttonFive = document.getElementById("dot-5");
-    const buttonFivePosition = "800px";
+    const buttonFivePosition = "1200px";
     if (clickedButton === buttonOne) {
         carousel.style.right = buttonOnePosition;
     }
