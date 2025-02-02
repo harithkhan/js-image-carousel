@@ -66,6 +66,7 @@ body {
 .carousel {
     display: flex;
     position: relative;
+    right: 0;
 }
 
 .carousel-item {
