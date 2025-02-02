@@ -1,5 +1,5 @@
 import "./style.css";
-import { slideRight, slideLeft } from "../slide";
+import { slideRight, slideLeft } from "./slide";
 import { colorDot, generateDotIds, handleDotClick } from "./dot";
 
 generateDotIds();

@@ -1,4 +1,4 @@
-import { colorDot } from "./src/dot";
+import { colorDot } from "./dot";
 
 export function slideRight() {
     const carousel = document.querySelector(".carousel");
