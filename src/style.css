@@ -68,13 +68,13 @@ body {
 
 .header {
     margin-top: 5rem;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .carousel-container {
     display: flex;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
     gap: 2rem;
     width: 416px;
     flex-wrap: wrap;
@@ -84,6 +84,7 @@ body {
     width: 200px;
     position: relative;
     overflow: hidden;
+    border-radius: 16px;
 }
 
 .carousel {
