@@ -8,6 +8,9 @@ export function slideRight() {
     if (match[1] >= 0 && match[1] <= 600) {
         carousel.style.right = `${parseInt(match[1], 10) + 200}px`;
         console.log(`After: ${computedStyle.getPropertyValue("right")}`);
+    } else if (computedStyle.getPropertyValue("right") === "800px") {
+        carousel.style.right = "0px";
+        console.log(`After: ${computedStyle.getPropertyValue("right")}`);
     }
 }
 
@@ -21,5 +24,8 @@ export function slideLeft() {
     if (match[1] > 0 && match[1] <= 800) {
         carousel.style.right = `${parseInt(match[1], 10) - 200}px`;
         console.log(`After: ${computedStyle.getPropertyValue("right")}`);
-    } 
+    } else if (computedStyle.getPropertyValue("right") === "0px") {
+        carousel.style.right = "800px";
+        console.log(`After: ${computedStyle.getPropertyValue("right")}`);
+    }
 }
